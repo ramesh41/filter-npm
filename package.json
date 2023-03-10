@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.2.0",
+  "description": "RB packate basicaly removed the duplicate item from array and Group the item based on user roles",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesh41/filter-npm.git"
+  },
+  "keywords": [
+    "find",
+    "unique",
+    "package",
+    "or",
+    "Group",
+    "by",
+    "user",
+    "roles"
+  ],
+  "author": "Ramesh bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesh41/filter-npm/issues"
+  },
+  "homepage": "https://github.com/ramesh41/filter-npm#readme"
+}

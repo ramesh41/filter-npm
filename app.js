@@ -1,11 +1,15 @@
+const findUniqueItem = (arr) => {
+  return arr.filter((item, index) => arr.indexOf(item) == index);
+};
 
-var a= 20;
-var a= 10;
-console.log(a)
+const groupByRole = (arrayobj) => {
+  const groupByRoles = {};
+  arrayobj.forEach((item) => {
+    !groupByRoles[item.roles]
+      ? (groupByRoles[item.roles] = [item])
+      : groupByRoles[item.roles].push(item);
+  });
+  return groupByRoles;
+};
 
-var a;
-//print(a)
-
-
-
-
+export { findUniqueItem, groupByRole };

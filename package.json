@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "package-name": "(package) groupByRole-package",
   "version": "1.2.0",
   "description": "RB packate basicaly removed the duplicate item from array and Group the item based on user roles",
   "main": "app.js",
